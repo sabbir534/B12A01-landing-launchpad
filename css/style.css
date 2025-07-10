@@ -14,4 +14,80 @@ body {
   font-style: normal;
 }
 /* shared styles */
+.primary-color {
+  color: #4e47ff;
+}
+.primary-btn {
+  font-family: "Raleway", sans-serif;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 150%;
+  background-color: #4e47ff;
+  color: #fff;
+  padding: 12px 36px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.primary-btn:hover {
+  background-color: #3c37e6;
+}
 /* end of shared styles */
+/* nav and banner section styles */
+header {
+  background-image: url("/assets/Hero-bg.png");
+  background-repeat: no-repeat;
+  height: 698px;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 50px 0;
+  align-items: center;
+}
+nav a {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: "Inter", sans-serif;
+  font-weight: 800;
+  font-size: 34px;
+  line-height: 150%;
+}
+.hero-section {
+  max-width: 905px;
+  text-align: center;
+  margin: 100px auto;
+}
+.hero-section h1 {
+  font-family: "Raleway", sans-serif;
+  font-weight: bold;
+  font-size: 65px;
+  color: #252432;
+}
+/* end of nav and banner section styles */
+/* Main Section styles */
+main {
+  max-width: 1140px;
+}
+/* Action Section styles */
+.action-section {
+  font-family: "Raleway", sans-serif;
+}
+.action-section h3 {
+  font-weight: bold;
+  font-size: 42px;
+}
+.action-section p {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 30px;
+  color: rgba(37, 36, 50, 0.5);
+}
+
+/* End of Action Section styles */
+/* End of Main Section styles */
