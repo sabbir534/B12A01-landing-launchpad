@@ -71,10 +71,14 @@ nav a {
 /* Main Section styles */
 main {
   max-width: 1140px;
+  margin: 0 auto;
 }
 /* Action Section styles */
 .action-section {
+  display: flex;
+  justify-content: space-between;
   font-family: "Raleway", sans-serif;
+  padding: 116px 0;
 }
 .action-section h3 {
   font-weight: bold;
@@ -87,6 +91,12 @@ main {
   font-size: 24px;
   line-height: 30px;
   color: rgba(37, 36, 50, 0.5);
+}
+.action-left {
+  padding-right: 250px;
+}
+.action-right img {
+  border-radius: 48px;
 }
 /* End of Action Section styles */
 /* End of Main Section styles */
