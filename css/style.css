@@ -102,7 +102,6 @@ main {
 
 /* Productive user section styles */
 .productive-user-section {
-  margin: 116px 0;
   text-align: center;
   background: rgba(78, 71, 255, 0.1);
   border-radius: 24px;
@@ -134,5 +133,60 @@ main {
   color: rgba(37, 36, 50, 0.5);
 }
 /* End of Productive user section styles */
+
+/* Review Section styles */
+.review-section h3 {
+  font-family: "Raleway", sans-serif;
+  font-weight: bold;
+  font-size: 42px;
+  margin-bottom: 50px;
+  text-align: center;
+  margin-top: 100px;
+}
+.review h4 {
+  font-family: "Raleway", sans-serif;
+}
+.reviews {
+  display: flex;
+  gap: 20px;
+}
+.review {
+  box-sizing: border-box;
+  background: rgba(255, 255, 255, 0.5);
+  border: 1px solid #f2eded;
+  border-radius: 14px;
+  padding: 24px;
+}
+.review p {
+  margin-top: 0;
+  font-size: 20px;
+}
+.author {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.author img {
+  height: 40px;
+  width: 40px;
+  margin-right: 15px;
+  border-radius: 50%;
+}
+.author-info {
+  font-family: "Inter", sans-serif;
+}
+.author-info h5 {
+  margin-bottom: 0;
+  color: #757575;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+}
+.author-info p {
+  margin-top: 5px;
+  color: rgba(37, 36, 50, 0.5);
+  font-size: 12px;
+}
+/* End of Review Section styles */
 
 /* End of Main Section styles */
