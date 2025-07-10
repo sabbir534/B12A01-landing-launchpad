@@ -36,7 +36,7 @@ body {
 /* end of shared styles */
 /* nav and banner section styles */
 header {
-  background-image: url("/assets/Hero-bg.png");
+  background-image: url("../assets/Hero-bg.png");
   background-repeat: no-repeat;
   height: 698px;
 }
@@ -88,6 +88,5 @@ main {
   line-height: 30px;
   color: rgba(37, 36, 50, 0.5);
 }
-
 /* End of Action Section styles */
 /* End of Main Section styles */
