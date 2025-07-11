@@ -314,4 +314,7 @@ footer ul li a {
   font-weight: normal;
   font-size: 14px;
 }
+footer ul li a:hover {
+  color: #4e47ff;
+}
 /* End of Footer styles */
