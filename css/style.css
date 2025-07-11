@@ -274,3 +274,44 @@ main {
 /* End of Get in Touch Section styles */
 
 /* End of Main Section styles */
+
+/* Footer styles */
+footer {
+  padding: 50px 0;
+  text-align: center;
+  background-color: #ffffff;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  margin: 50px 0 0 0;
+}
+.footer-section {
+  margin: 0 auto;
+  max-width: 500px;
+}
+footer h1 {
+  font-family: "Inter", sans-serif;
+  font-weight: bold;
+  font-size: 100px;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+footer p {
+  font-family: "Inter", sans-serif;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 150%;
+  color: rgba(37, 36, 50, 0.5);
+}
+footer ul li {
+  display: inline-block;
+  margin: 0 10px;
+  list-style: none;
+}
+footer ul li a {
+  text-decoration: none;
+  color: rgba(37, 36, 50, 0.5);
+  font-family: "Inter", sans-serif;
+  font-weight: normal;
+  font-size: 14px;
+}
+/* End of Footer styles */
