@@ -222,4 +222,55 @@ main {
 }
 /* End ofFocus Section styles */
 
+/* Get in Touch Section styles */
+.get-in-touch-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.text-section {
+  width: 50%;
+  font-family: "Raleway", sans-serif;
+  font-weight: bold;
+  font-size: 40px;
+}
+.form-section {
+  width: 50%;
+}
+.form-section input[type="text"],
+.form-section input[type="email"],
+.form-section textarea {
+  height: 64px;
+  display: block;
+  width: 100%;
+  margin-bottom: 24px;
+  background: #ffffff;
+  border: 1px solid #d6dded;
+  border-radius: 10px;
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+}
+.form-section input[type="submit"] {
+  width: 100%;
+}
+.form-section input::placeholder,
+.form-section textarea::placeholder {
+  font-family: "Inter", sans-serif;
+  font-size: 12px;
+  padding-left: 20px;
+}
+.form-section textarea {
+  height: 200px;
+  resize: none;
+}
+.form-section label {
+  font-family: "Inter", sans-serif;
+  font-size: 12px;
+  margin-bottom: 5px;
+  font-weight: bold;
+  display: block;
+}
+/* End of Get in Touch Section styles */
+
 /* End of Main Section styles */
