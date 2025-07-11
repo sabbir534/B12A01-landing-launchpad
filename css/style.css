@@ -189,4 +189,37 @@ main {
 }
 /* End of Review Section styles */
 
+/* Focus Section styles */
+.focus-section {
+  background-color: #fff;
+  border-radius: 14px;
+  margin: 120px 0;
+  text-align: center;
+  padding: 50px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Raleway", sans-serif;
+  gap: 15px;
+}
+.focus-section h1 {
+  font-weight: bold;
+  font-size: 50px;
+  color: black;
+  margin-bottom: 0;
+}
+.focus-section p {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  color: rgba(0, 0, 0, 0.5);
+}
+.focus-section img {
+  border-radius: 40px;
+}
+/* End ofFocus Section styles */
+
 /* End of Main Section styles */
